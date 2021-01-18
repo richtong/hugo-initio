@@ -29,7 +29,9 @@
 ## Installation
 
 If you do not want to modify the theme and just pick up the latest changes then
-run
+run. As an aside, if you are going to be using Netlify, you want to make sure
+to use https for this repo as it is public and easy to access without a special
+deployment key.
 
 ```bash
 cd /<your-hugo-site-directory>
@@ -165,8 +167,13 @@ cd <your hugo root>
 mkdir -p layouts/_defaults
 cp themes/hugo-initiof/layouts/_defaults/baseof.html layouts/_defaults
 ```
+
 Now you can add the Netlify Identity line in your own version of the
 baseof.html
+
+And as mentioned above use the https form when creating the submodule so you
+don't need a deployment key. Although that isn't too hard to
+[create](https://community.netlify.com/t/support-guide-how-do-i-access-private-repositories-in-the-build-environment/723).
 
 ## Construction of partials in the theme (A Note)
 
@@ -217,7 +224,9 @@ And you can edit `footer.html` and it overrides the theme
 ## Deployment
 
 There are quite a few hosting options available. The site does host properly on
-Netlify.com. For other options checkout:
+Netlify.com.
+k
+For other options checkout:
 
 - [Hosting on GitHub](https://gohugo.io/hosting-and-deployment/hosting-on-github/)
 - [More hosting and deployment options](https://gohugo.io/hosting-and-deployment/)
