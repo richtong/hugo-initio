@@ -34,7 +34,12 @@ More info: [hugo setup guide](https://gohugo.io/overview/installing/)
 
 ## Configuration
 
-[Example Site](https://github.com/miguelsimoni/hugo-initio/tree/master/exampleSite)
+[Example Site](https://github.com/miguelsimoni/hugo-initio/tree/master/exampleSite) is kept
+in a the directory. To use it, do a `cp -r ExampleSite ../../` but be careful
+this blows away the old config.toml file and add new content.
+
+But you should be able to see the site then and edit to your hearts content.
+
 
 [config.toml](https://github.com/miguelsimoni/hugo-initio/tree/master/exampleSite/config.toml)
 
