@@ -1,7 +1,9 @@
-baseURL = "http://localhost:1313/"
+# do not put a hard coded thing here otherwise dev services won't work
+baseURL = "/"
 languageCode = "en"
 title = "Initio - Free, multipurpose html5 template by GetTemplate"
 theme = "hugo-initio"
+# change to something else if you really want an example like doc
 publishDir = "public"
 
 [params]
